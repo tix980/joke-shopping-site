@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+html{
+    box-sizing: border-box;
+    background: #F0F0D8;
+
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+.page-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body,#btn{
+    font-family: 'Coming Soon', cursive;
+}
+
+form{
+    background:white;
+}
+
+/*https://codepen.io/jadlimcaco/pen/ExjGrqJ*/
+.container {
+    /* Original border radius */
+    /*border-top-left-radius: 37px 140px;*/
+    /*border-top-right-radius: 23px 130px;*/
+    /*border-bottom-left-radius: 110px 19px;*/
+    /*border-bottom-right-radius: 120px 24px;*/
+
+    border-top-left-radius: 59px 140px;
+    border-top-right-radius: 58px 130px;
+    border-bottom-left-radius: 110px 93px;
+
+    display: block;
+    position: relative;
+    border: solid 3px #6e7491;
+    padding: 40px 60px;
+    max-width: 800px;
+    width: 70%;
+    margin: 100px auto 0;
+    font-size: 17px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+}
+
+.container:hover {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+}
+
+.container:hover .border {
+    transform: translateY(4px) rotate(-5deg);
+}
+
+.border {
+    position: absolute;
+    transition: all 0.13s ease-in;
+}
+
+.border:before,
+.border:after {
+    color: #515d9c;
+    font-size: 15px;
+    position: absolute;
+}
+
+.tl {
+    position: absolute;
+    left: -50px;
+    top: -63px;
+    font-weight: 600;
+}
+
+.tl:before {
+    content: "37px";
+    left: 120px;
+    top: 30px;
+}
+
+.tl:after {
+    content: "140px";
+    left: 0px;
+    top: 80px;
+}
+
+.tr {
+    right: -50px;
+    top: -63px;
+    font-weight: 600;
+}
+
+.tr:before {
+    content: "23px";
+    left: 0;
+    top: 30px;
+}
+
+.tr:after {
+    content: "130px";
+    left: 130px;
+    top: 80px;
+}
+
+.bl {
+    left: -50px;
+    bottom: -71px;
+    font-weight: 600;
+}
+
+.bl:before {
+    content: "110px";
+    left: 120px;
+    top: -30px;
+}
+
+.bl:after {
+    content: "19px";
+    left: 0px;
+    top: -90px;
+}
+
+.br {
+    right: -50px;
+    bottom: -63px;
+    font-weight: 600;
+}
+
+.br:before {
+    content: "120px";
+    left: 0;
+    top: -30px;
+}
+
+.br:after {
+    content: "24px";
+    right: -10px;
+    top: -80px;
+}
+
+pre {
+    background: #edeff5;
+    padding: 20px;
+}
+
+/*the end of https://codepen.io/jadlimcaco/pen/ExjGrqJ*/
+
+
+
+.flex-container2{
+    display:flex;
+}
+
+.flex-container2 > h1{
+    margin-left: 21em;
+}
+
+.flex-container2 a{
+    text-decoration: none;
+}
+
+.flex-container2 a:hover{
+    color: #000080;
+}
+
+#direction{
+    margin-left: 7em;
+    margin-top: 2em;
+}
+
+.btn{
+    padding-left: 12em;
+    padding-top: 2em;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top:3em;
+}
+
+.flex-container > form {
+    flex: 25%;
+    box-shadow: 0 0 0 1px black;
+    margin-bottom: 10px;
+    margin-right: 1em;
+    padding:2em;
+
+}
+
+.flex-container > div:hover{
+    background-color:black;
+    color:white;
+}
+
+#btn{
+    border: none;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-left: 7em;
+}
+
+#btn:hover{
+    padding: 1em;
+    color:blue;
+}
+

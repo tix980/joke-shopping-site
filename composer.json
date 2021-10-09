@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "JokeShoppingSite\\models\\": "models/"
+        }
+    },
+    "require": {
+        "stripe/stripe-php": "^7.92",
+        "google/cloud-text-to-speech": "^1.2",
+        "google/cloud": "^0.164.0",
+        "google/cloud-storage": "^1.24"
+    }
+}

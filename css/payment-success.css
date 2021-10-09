@@ -1,0 +1,20 @@
+#success-page{
+    /*image link :https://www.pngwing.com/en/free-png-bzmzm*/
+    background:url("../images/certificate.png") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 1200px 801px !important;
+    padding:20em;
+    margin-top:3em;
+    margin-right:3em;
+}
+
+#success-page h2{
+    margin-top: -4em;
+    color:darkgoldenrod;
+}
+
+#radio-player{
+    margin-top: 8em;
+    margin-left: 7em;
+}
